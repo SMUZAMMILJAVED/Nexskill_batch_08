@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+
+
+nav{
+background-color: bisque;
+min-height: 50px;
+max-width: 4000px;
+
+
+}
+
+nav:hover{
+background-color: aqua;
+
+
+}
+
+
+ul{
+position: absolute;
+margin-left: 1200px;
+word-spacing: 80px;
+font-size: 24px;
+font-weight: bold;
+
+}
+li{
+display: inline;
+
+
+
+}
+
+div{
+height: 100px;
+width: 100px;
+border: solid 8px coral;
+overflow-y: scroll;
+overflow-x: hidden;
+
+}
+
+

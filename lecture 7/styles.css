@@ -1,0 +1,48 @@
+p{
+color: #ff0000;
+
+}
+
+p{
+color: #00ff00;
+
+}
+
+p{
+color: #0000ff;
+
+}
+
+p{
+color: #ffffff;
+
+}
+
+p{
+color: #000000;
+
+}
+
+p{
+color: rgb(255, 000, 000);
+
+}
+
+p{
+color: rgb(000, 255, 000);
+
+}
+
+/* opacity ranges from 0 to 1 */
+
+p{
+color: rgb(000, 000, 255,);
+background-color: #ff0000;
+opacity: 0.5;
+}
+
+/* aplha value */
+p{
+color: rgba(000, 000, 255,0.7);
+background-color: #ff000088;
+}

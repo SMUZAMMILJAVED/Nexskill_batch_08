@@ -1,0 +1,57 @@
+
+
+h1,h2,h3{
+
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+h1{
+    color: brown;
+
+
+
+
+}
+
+h2,h3{
+    color: rgb(2, 27, 94);
+
+
+
+}
+
+
+strong{
+    background-color: bisque;
+
+
+}
+
+span{
+    background-color: rgb(107, 231, 231);
+
+
+}
+
+
+.child_1{
+    color: darkgreen;
+    border: solid;
+
+
+
+
+}
+
+#child_2{
+    font-size: xx-large;
+
+
+
+
+}

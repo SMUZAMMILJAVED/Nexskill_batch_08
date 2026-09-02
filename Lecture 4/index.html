@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="example.com.pk" method="get">
+        <!-- Text input -->
+        <label>First Name: <input placeholder="Jhon" type="text" name="First Name" maxlength="10"> </label> <br><br>
+        <label>Last Name: <input placeholder="Cina" type="text" name="Last Name" maxlength="10"></label><br><br>
+        <!-- Password input -->
+        <label>Password: <input placeholder="****" type="password" name="password" maxlength="8"></label><br><br>
+        <!-- Text area (multi-line) -->
+        <label>Comment 
+            <textarea placeholder="enter your Comment" name="Comment"></textarea><br><br>
+        </label>
+        <!-- Radio Input -->
+        <label>
+            Your Gender <br>
+            <input value="Male" type="radio" name="Gender"> Male
+            <input id="Female" value="Female" type="radio" name="Gender"><label for="Female"> Female</label>
+            <input id="Do not want to disclose" checked value="Not Define" type="radio" name="Gender"> <label for="Do not want to disclose">Do not want to disclose</label> <br><br>
+        </label>
+        <!-- Check Box -->
+        <label>Select You Hobbies <br>
+            <input value="Cricket" type="checkbox" name="Hobbies"> Cricket
+            <input value="Reading Books" type="checkbox" name="Hobbies"> Reading Books
+            <input value="Watching Movies" type="checkbox" name="Hobbies"> Watching Movies <br><br>
+
+
+        </label>
+        <!-- Drop Down List Box -->
+         <label>
+            Select Your Country Name:
+            <select name="Country" >
+                <option value="Pak">Pakistan</option>
+                <option value="USA">United States</option>
+                <option value="UAE">United Arab</option> 
+            </select> <br><br>
+
+         </label>
+         <!-- File Input Box -->
+          <label>Upload Your Profile
+            <input type="file"> <br><br>
+
+
+          </label>
+        <button>Click here to create account</button>
+
+    </form>
+
+
+</body>
+
+</html>

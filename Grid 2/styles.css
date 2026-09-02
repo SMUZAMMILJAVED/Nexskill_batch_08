@@ -1,0 +1,54 @@
+.parent,.child{
+border: solid white;
+gap: 3px;
+
+}
+
+.parent{
+    display: grid;
+    grid-template-rows: 17vh 55vh 15vh 13vh;
+    grid-template-columns: 20vh 60vh 20vh;
+
+}
+
+.child{
+    background-color: rgb(231, 209, 7);
+    padding: 10px;
+
+}
+
+.child:hover{
+    background-color: rgb(11, 167, 11);
+}
+
+.child_1{
+    grid-row: 2/4;
+
+
+}
+
+.child_2{
+    grid-column: 1/4;
+
+}
+
+.child_3{
+    grid-column: 2/4;
+    grid-row: 2/3;
+
+}
+
+.child_5{
+    grid-column: 1/4;
+
+}
+
+.child_4{
+    grid-column: 2/4;
+
+}
+
+
+
+
+
