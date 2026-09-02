@@ -1,0 +1,38 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+
+}
+li:hover{
+  text-decoration: underline;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.hero{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+background-color: pink;
+}

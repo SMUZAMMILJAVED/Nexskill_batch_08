@@ -1,0 +1,8 @@
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    flex-direction: column;
+    color: blue;
+}
