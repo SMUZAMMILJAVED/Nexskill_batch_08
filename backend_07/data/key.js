@@ -1,0 +1,1 @@
+exports.SECRET_KEY=process.env.KEY||"my_key"
